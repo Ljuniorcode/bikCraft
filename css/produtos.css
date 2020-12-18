@@ -160,6 +160,10 @@
   margin-bottom: 40px;
 }
 
+.orcamento_dados span:nth-of-type(2) {
+  
+}
+
 .orcamento_dados ul {
   padding-right: 60px;
 }
