@@ -10,12 +10,12 @@
   <link rel="stylesheet" href="/css/reset.css">
   <link rel="stylesheet" href="/css/grid.css">
   <link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="/css/sobre.css">
-  <link rel="stylesheet" href="/css/portfolio.css">
+  <link rel="stylesheet" href="/css/contato.css">
 
 
 
-  <title>BikeCraft - Portfólio</title>
+
+  <title>BikeCraft - Contato</title>
 </head>
 
 <body>
@@ -29,36 +29,57 @@
         <ul>
           <li><a href="sobre.html">Sobre</a></li>
           <li><a href="produtos.html">Produtos</a></li>
-          <li><a href="portfolio.html" class="menu_ativo">Portfólio</a></li>
-          <li><a href="contato.html">Contato</a></li>
+          <li><a href="portfolio.html">Portfólio</a></li>
+          <li><a href="contato.html" class="menu_ativo">Contato</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <section class="introducao-interna interna_portfolio">
+  <section class="introducao-interna interna_contato">
     <div class="container">
-      <h1>Portfólio</h1>
-      <p>conheça mais sobre o nosso portfólio</p>
+      <h1>Contato</h1>
+      <p>Tire suas dúvidas com a gente</p>
     </div>
   </section>
 
-  <section class="container">
-    <blockquote class="quote_clientes">
-      <p>"No mundo atual, a contínua expansão de nossa atividade cumpre um papel
-        essencial na formulação da gestão inovadora da qual fazemos parte."</p>
-      <cite>Barbara Moss</cite>
-    </blockquote>
-  </section>
 
-  <section class="portfolio">
-    <div class="container">
-      <ul class="portfolio_lista">
-        <li class="grid-8"><img src="/img/portfolio/retro.jpg" alt="bike retrô"></li>
-        <li class="grid-8"><img src="/img/portfolio/passeio.jpg" alt="bike passeio"></li>
-        <li class="grid-16"><img src="/img/portfolio/esporte.jpg" alt="bike esporte"></li>
+  <section class="contato container">
+
+    <h2 class="subtitulo">Contato</h2>
+
+    <form id="form_orcamento" class="form grid-8">
+      <label for="nome">Nome</label>
+      <input type="text" id="nome">
+
+      <label for="email">E-mail</label>
+      <input type="text" id="email">
+
+      <label for="telefone">Telefone</label>
+      <input type="number" id="telefone">
+
+      <label for="espec">Especificações</label>
+      <textarea id="espec"></textarea>
+      <button type="submit" class="btn">Enviar</button>
+
+    </form>
+
+    <div class="orcamento_dados grid-8">
+      <h3>Dados</h3>
+      <span>+55 21 9999-9999</span>
+      <span>contato@bikcraft.com</span>
+
+      <h3>Monte a sua bikcraft</h3>
+      <p>Escolha as especificações:</p>
+      <ul>
+        <li>- Cores</li>
+        <li>- Estilo</li>
+        <li>- Medidas</li>
+        <li>- Acessórios</li>
+        <li>- E Outros</li>
       </ul>
     </div>
+
   </section>
 
   <section class="quebra">
@@ -78,8 +99,7 @@
           <h3>Nossa história</h3>
           <p>
             Quando iniciamos a Bikcraft queriamos apenas um produto que adoraríamos utilizar. Eramos apaixonados por
-            pedalar e também por fazer as coisas com as nossas próprias mãos. Assim surgiu um sonho na garagem da
-            nossa
+            pedalar e também por fazer as coisas com as nossas próprias mãos. Assim surgiu um sonho na garagem da nossa
             casa.
           </p>
         </div>
