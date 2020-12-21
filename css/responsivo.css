@@ -1,6 +1,8 @@
 /* Estilo para tablet*/
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-
+	.qualidade:after {
+		right: 66px;
+	}
 }
 
 /* Estilo para smartphone*/
@@ -22,7 +24,6 @@
 
 	.header_menu ul li {
 		margin: 5px;
-
 	}
 
 	.header_menu ul li a{
